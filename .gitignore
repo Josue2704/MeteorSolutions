@@ -1,0 +1,54 @@
+# Configuración y archivos sensibles
+/upload/.htaccess
+/upload/config.php
+/upload/admin/config.php
+
+# Archivos cacheados de imágenes
+/upload/image/cache/*
+!/upload/image/cache/index.html
+
+# Archivos de respaldo
+/upload/system/storage/backup/*
+!/upload/system/storage/backup/index.html
+
+# Archivos de caché del sistema
+/upload/system/storage/cache/*
+!/upload/system/storage/cache/index.html
+
+# Archivos descargados
+/upload/system/storage/download/*
+!/upload/system/storage/download/index.html
+
+# Archivos de logs
+/upload/system/storage/logs/*
+!/upload/system/storage/logs/index.html
+
+# Archivos de la sesión
+/upload/system/storage/session/*
+!/upload/system/storage/session/index.html
+
+# Archivos subidos
+/upload/system/storage/upload/*
+!/upload/system/storage/upload/index.html
+
+# Archivos de la tienda y CSS personalizado
+/upload/catalog/view/stylesheet/stylesheet.css
+
+# Archivos del marketplace (opcional, si no los usas)
+# /upload/system/storage/marketplace/*
+# !/upload/system/storage/marketplace/index.html
+
+# Archivos generados por IDEs y sistemas operativos
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Archivos temporales y compilados
+*.log
+*.tmp
+*.bak
+
+# Archivos de la base de datos (opcional, si los exportas a SQL)
+*.sql
+*.gz
